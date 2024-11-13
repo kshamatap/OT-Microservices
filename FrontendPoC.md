@@ -29,6 +29,8 @@ NPM helps you manage these dependencies by adding them to a package.json file, w
 
 ## Architecture
 
+![image](https://github.com/user-attachments/assets/0f407fcb-2416-4911-974e-15d82ed6986e)
+
 ## Installation Steps
 For the Frontend PoC, follow the steps mentioned below:
 
@@ -43,9 +45,10 @@ After instance creation, first step is to update the packages (instance type t2.
     git clone https://github.com/OT-MICROSERVICES/frontend.git
     cd frontend
     ```
- ![Screenshot from 2024-11-11 14-06-33](https://github.com/user-attachments/assets/46374ed6-19ec-4466-adfa-ac21497c15e7)
+![image](https://github.com/user-attachments/assets/8c1ec38c-be8d-41c7-bbb4-9cfa59847c37)
+
  
-3. **Create directory name `Public`** into frontend directory and create `index.html` file Where we have add following content.
+3. **Create directory name `public`** into frontend directory and create `index.html` file Where we have add following content.
 
 ```
 html<!DOCTYPE html>
@@ -63,6 +66,10 @@ html<!DOCTYPE html>
 </body>
 </html>
 ```
+![image](https://github.com/user-attachments/assets/fe5588ac-b25b-45cd-a300-847bf0846c1b)
+
+![image](https://github.com/user-attachments/assets/81787afe-aceb-4950-bd2f-5ab4c989796e)
+
 
 4. **Edit the package.json file:**
 In the `package.json` change the ip address with the public ip address in the proxy with specified port.
@@ -77,13 +84,19 @@ In the `package.json` change the ip address with the public ip address in the pr
 ```
 ![Screenshot from 2024-11-11 14-24-57](https://github.com/user-attachments/assets/d434936a-9f83-47b7-b8d1-fdc99e71012b)
 
+![image](https://github.com/user-attachments/assets/aec1ec30-bc74-4839-ad11-e411a996a290)
+
 6. **Build the application:**
 For building the application. we can use make command from the Makefile.
 
 ```sh
     make build
 ```
-![Screenshot from 2024-11-11 14-43-29](https://github.com/user-attachments/assets/90637463-04b1-46fb-b0a3-048b675ccfb7)
+![image](https://github.com/user-attachments/assets/18aa9306-b390-437b-a8ea-ff5df5657a02)
+To resolve this error, run the following command
+export NODE_OPTIONS=--openssl-legacy-provider
+
+![image](https://github.com/user-attachments/assets/49d33a2a-3d18-4841-ab22-93e83278e701)
 
 7. **Run the application:**
 The command to run the application is as follows
@@ -91,18 +104,21 @@ The command to run the application is as follows
 ```sh
     npm start
 ```
-![Screenshot from 2024-11-11 15-45-38](https://github.com/user-attachments/assets/7231bd8b-0b8b-431a-b9bc-69843879deb9)
+![image](https://github.com/user-attachments/assets/8c37e206-52c4-402c-8bea-7d7ace279251)
+
 
 8. **Output:**
 Finally we get the output by hitting the public ip of the VM:
 
-![Screenshot from 2024-11-11 15-40-20](https://github.com/user-attachments/assets/a4e6d3af-73e9-4867-a3fb-5f04ceb47737)
+![image](https://github.com/user-attachments/assets/f58df287-7f41-4734-b3a1-35a85c137746)
+
 
 ##  Reference Links
 | Links | Description      |
 |-----  |--------------------------|
 | https://nodejs.org/en/download/package-manager/all | For nodejs Installation | 
-https://www.geeksforgeeks.org/how-to-install-node-js-and-npm-on-ubuntu/  | For NPM Installation
+| https://www.geeksforgeeks.org/how-to-install-node-js-and-npm-on-ubuntu/  | For NPM Installation |
+
 ## Contact
 | Name          | Email Address       |
 |---------------|---------------------|
