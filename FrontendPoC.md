@@ -9,8 +9,8 @@
 
 ## Purpose
 The frontend web is a REACTJS based application which is user interface of [OT-Microservices](https://github.com/OT-MICROSERVICES) stack. This application supports cross-platform and can be executed on multiple OS as long as a JavaScript runtime environment is available. 
-A ReactJS based web framework for the complete web page based operations
-Test case integration for application functionality verification
+A ReactJS based web framework for the complete web page based operations.
+Test case integration for application functionality verification.
 
 ## System Requirements
 | System requirement | Minimum Requirement  |
