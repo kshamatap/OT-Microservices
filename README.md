@@ -8,7 +8,7 @@
 1. [Introduction](#introduction)
 2. [Architecture](#architecture)
 3. [Pre-requisites](#pre-requisites)
-4. [Features of Frontend](#features)
+4. [Features of Frontend API](#features)
 5. [Key Benefits of ReactJS for Frontend API](#key-benefits-of-reactjs-for-frontend-api)
 10. [Conclusion](#conclusion)
 11. [Contact Information](#contact-information)
