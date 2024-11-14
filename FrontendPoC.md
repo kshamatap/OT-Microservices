@@ -74,15 +74,12 @@ html<!DOCTYPE html>
 4. **Edit the package.json file:**
 In the `package.json` change the ip address with the public ip address in the proxy with specified port.
 
-![Screenshot from 2024-11-11 14-11-07](https://github.com/user-attachments/assets/405c93ce-70e9-408c-be37-02762b769db9)
-
 5. **Install nodejs:**
 
 ```sh 
     sudo apt update
     sudo apt install nodejs -y
 ```
-![Screenshot from 2024-11-11 14-24-57](https://github.com/user-attachments/assets/d434936a-9f83-47b7-b8d1-fdc99e71012b)
 
 ![image](https://github.com/user-attachments/assets/aec1ec30-bc74-4839-ad11-e411a996a290)
 
