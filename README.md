@@ -2,7 +2,7 @@
 
 | **Author**            | **Created on** | **Version** | **Last updated by**       | **Last edited on** | **Reviewer**      |
 |-----------------------|----------------|-------------|----------------------------|---------------------|-------------------|
-| Kshamata      | 12-11-24       | Version 1.1  | Kshamata           |          |     |
+| Kshamata      | 12-11-24       | Version 1.1  | Kshamata           | 14-11-24         |     |
 
 ## Table of Contents
 1. [Introduction](#introduction)
