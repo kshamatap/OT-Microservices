@@ -73,7 +73,7 @@ DOM is a programming interface for web documents and represents the structure of
 React operates by creating an in-memory virtual DOM rather than directly manipulating the browser’s DOM. Virtual DOM is a lightweight copy of the actual DOM. React performs necessary manipulations within this virtual representation before applying changes to the actual browser DOM. React is efficient, altering only what requires modification.
 
 ## Key Features of ReactJS 
-![image](https://github.com/user-attachments/assets/9d506013-b339-4aa8-8a8c-9264c71d96a4)
+![image](https://github.com/user-attachments/assets/272d2e8d-0ad9-4aa6-bedc-a989c58c8815)
 
 | Key Features | Details| 
 |----------|----------|
