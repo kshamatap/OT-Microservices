@@ -30,7 +30,8 @@ ReactJS is a modern, flexible, and high-performance JavaScript library for build
 
 ## Architecture
 
-![alt text](image-2.png)
+![image](https://github.com/user-attachments/assets/b3ef6f0e-0446-4426-a11a-96693c6ce130)
+
 
 The Frontend Web integrates with Employee API, Attendance API and Salary API for the functioning of OT-Microservices stack. 
 
