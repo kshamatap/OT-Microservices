@@ -67,7 +67,8 @@ React is a JavaScript library for building user interfaces (UIs) on the web. Rea
 React operates by creating an in-memory virtual DOM rather than directly manipulating the browser’s DOM. It performs necessary manipulations within this virtual representation before applying changes to the actual browser DOM. React is efficient, altering only what requires modification.
 
 ## Key Features of ReactJS for Frontend API
-![alt text](image-1.png)
+![image](https://github.com/user-attachments/assets/17a0b171-f61a-4e6a-89c8-ea8d7935fdf5)
+
 
 - **Fast Rendering & Performance**: React’s virtual DOM and efficient update process lead to faster and smoother rendering.
 - **Easy Debugging and Testing**: React's declarative UI, along with developer tools, simplifies debugging and testing.
