@@ -31,7 +31,7 @@ ReactJS is a modern, flexible, and high-performance JavaScript library for build
 
 ## Architecture
 
-![alt text](image-10.png)
+![image](https://github.com/user-attachments/assets/f0ece001-e6b6-4e3c-9936-1e53d4e13ac3)
 
 The Frontend Web integrates with Employee API, Attendance API and Salary API for the functioning of OT-Microservices stack. 
 
@@ -44,7 +44,6 @@ The Frontend Web integrates with Employee API, Attendance API and Salary API for
 | **REST APIs**  | The frontend application have dependencies on other REST API of OT-Microservices like Employee, Attendance and Salary APIs which need to be configured. | 
 | **Node.js**|  Provides the runtime environment for executing JavaScript on the server-side and building and packaging React code | 
 | **NPM (Node Package Manager)**  |  Used to install, manage and run dependencies(java script libraries and tools) that the application depends upon. NPM helps manage these dependencies by adding them to a package.json file, which lists all the libraries our application depends on.|
-
 
 ---
 
@@ -66,7 +65,7 @@ The Frontend API provides several important features and design patterns ensurin
 ---
 ## What is ReactJS
 
-![alt text](image-8.png)
+![image](https://github.com/user-attachments/assets/568f89c3-2878-4150-a3ec-1ac8e8b2fdc5)
 
 React is a JavaScript library for building user interfaces (UIs) on the web. React is a declarative, component based library that allows developers to build reusable UI components. React is fast and works well with other tools and libraries. It follows the Virtual DOM (Document Object Model) approach, which optimizes rendering performance by minimizing DOM updates. 
 DOM is a programming interface for web documents and represents the structure of an HTML document as a tree of nodes, where each node is an object representing a part of the page (like elements, attributes, and text). React interacts with the DOM to render and update the UI.
@@ -74,7 +73,7 @@ DOM is a programming interface for web documents and represents the structure of
 React operates by creating an in-memory virtual DOM rather than directly manipulating the browser’s DOM. Virtual DOM is a lightweight copy of the actual DOM. React performs necessary manipulations within this virtual representation before applying changes to the actual browser DOM. React is efficient, altering only what requires modification.
 
 ## Key Features of ReactJS 
-![alt text](image-1.png)
+![image](https://github.com/user-attachments/assets/9d506013-b339-4aa8-8a8c-9264c71d96a4)
 
 | Key Features | Details| 
 |----------|----------|
@@ -89,7 +88,8 @@ React operates by creating an in-memory virtual DOM rather than directly manipul
 
 ## ReactJS Use Cases and Why React ?
 
-![alt text](image-9.png)
+![image](https://github.com/user-attachments/assets/fe08acbb-4225-4bcf-8474-235d6591c4f0)
+
 # React Use Cases and Why React
 
 This document outlines common use cases for **React** and explains why React is well-suited for each scenario.
