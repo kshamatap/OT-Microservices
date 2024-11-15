@@ -4,14 +4,14 @@
 
 | **Author**            | **Created on** | **Version** | **Last updated by**       | **Last edited on** | **Reviewer**      |
 |-----------------------|----------------|-------------|----------------------------|---------------------|-------------------|
-| Kshamata      | 11-11-24       | Version 1.1  | Kshamata           | 14-11-24           |     |
+| Kshamata      | 11-11-24       | Version 1.1  | Kshamata           | 14-11-24           | Khushi Malhotra    |
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Purpose](#why-authentication-is-important)
-3. [System Requirements](#authentication-strategies)
-4. [Architecture](#comparison-of-authentication-methods)
-5. [Installation Steps](#best-practices)
+2. [Purpose](#purpose)
+3. [System Requirements](#system-requirements)
+4. [Architecture](#architecture)
+5. [Installation Steps](#installation-steps)
 6. [Conclusion](#conclusion)
 7. [Contact Information](#contact-information)
 8. [References](#references)
@@ -46,7 +46,7 @@ Test case integration for application functionality verification.
 
 ## Architecture
 
-!
+![alt text](image-11.png)
 
 ## Installation Steps
 For the Frontend PoC, follow the steps mentioned below:
