@@ -31,7 +31,8 @@ NPM helps you manage these dependencies by adding them to a package.json file, w
 
 ## Architecture
 
-!
+!![image](https://github.com/user-attachments/assets/17afc152-25e5-4c50-917c-7ce23331c03a)
+
 
 ## Installation Steps
 For the Frontend PoC, follow the steps mentioned below:
