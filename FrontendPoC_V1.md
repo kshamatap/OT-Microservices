@@ -51,7 +51,7 @@ Test case integration for application functionality verification.
 ## Installation Steps
 For the Frontend PoC, follow the steps mentioned below:
 
-![alt text](image-3.png)
+![image](https://github.com/user-attachments/assets/ba5684a9-bb4e-4e52-a8c8-14d0c8749d5f)
 
 1. **Update Packages**
 First step is to update the packages (instance type t2.small, volume 20GB)
