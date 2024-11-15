@@ -1,4 +1,4 @@
-# Frontend POC
+# POC Document for Frontend
 ### This document provides Proof-of-Concept (POC) of frontend in detail.
 
 
@@ -6,6 +6,19 @@
 |-----------------------|----------------|-------------|----------------------------|---------------------|-------------------|
 | Kshamata      | 11-11-24       | Version 1.1  | Kshamata           | 14-11-24           |     |
 
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Purpose](#why-authentication-is-important)
+3. [System Requirements](#authentication-strategies)
+4. [Architecture](#comparison-of-authentication-methods)
+5. [Installation Steps](#best-practices)
+6. [Conclusion](#conclusion)
+7. [Contact Information](#contact-information)
+8. [References](#references)
+
+
+## Introduction
+In [OT-Microservices](https://github.com/OT-MICROSERVICES) stack, the Frontend API built on ReactJS which integrates with other APIs of the application.
 
 ## Purpose
 The frontend web is a REACTJS based application serving as user interface of [OT-Microservices](https://github.com/OT-MICROSERVICES) stack. This application supports cross-platform and can be executed on multiple OS as long as a JavaScript runtime environment is available. 
@@ -21,13 +34,15 @@ Test case integration for application functionality verification.
 | **Processor**  |  Dual-core recommended|
 | **Instance Type**  |  t2.small|
 
-
+ 
 ## Pre-requisites
 
-- The frontend application have dependencies on other REST API of OT-Microservices like Employee, Attendance and Salary APIs which need to be configured.
-- **Node.js**: Provides the runtime environment for executing JavaScript on the server-side and building and packaging React code.
-- **NPM (Node Package Manager)**: Used to install, manage and run dependencies(java script libraries and tools) that the application depends upon.
-NPM helps you manage these dependencies by adding them to a package.json file, which lists all the libraries our application depends on.
+| Dependencies | Details| 
+|----------|----------|
+| **REST APIs**  | The frontend application have dependencies on other REST API of OT-Microservices like Employee, Attendance and Salary APIs which need to be configured. | 
+| **Node.js**|  Provides the runtime environment for executing JavaScript on the server-side and building and packaging React code | 
+| **NPM (Node Package Manager)**  |  Used to install, manage and run dependencies(java script libraries and tools) that the application depends upon. NPM helps manage these dependencies by adding them to a package.json file, which lists all the libraries our application depends on.|
+
 
 ## Architecture
 
@@ -36,10 +51,13 @@ NPM helps you manage these dependencies by adding them to a package.json file, w
 ## Installation Steps
 For the Frontend PoC, follow the steps mentioned below:
 
-1. **IUpdate Packages**
+![alt text](image-3.png)
+
+1. **Update Packages**
 First step is to update the packages (instance type t2.small, volume 20GB)
 ```sh 
     sudo apt update
+    sudo apt list --upgradable
 ```
 
 2. **Clone the Repository:**
@@ -55,6 +73,7 @@ First step is to update the packages (instance type t2.small, volume 20GB)
 ```sh 
     sudo apt update
     sudo apt install nodejs -y
+    nodejs -v
 ```
 
 ![image](https://github.com/user-attachments/assets/aec1ec30-bc74-4839-ad11-e411a996a290)
@@ -118,13 +137,16 @@ Finally we get the output by hitting the public ip of the VM:
 
 ![image](https://github.com/user-attachments/assets/f58df287-7f41-4734-b3a1-35a85c137746)
 
+## Conclusion
+The Frontend API is a robust microservice designed to manage the user interface within the OT-Microservices architecture. The API is dynamic and interactive as it is based on ReactJS, which is a high-performance JavaScript library.
 
+[Please click here for a detailed documentation of Frontend API of OT-Microservices](https://github.com/kshamatap/OT-Microservices/blob/main/FrontendPoC_V1.md)  
 
 ## Contact
 | Name          | Email Address       |
 |---------------|---------------------|
 | Kshamata |  kshamata.prasad.snaatak@mygurukulam.co|
-Collapse
+
 
 
 ##  Reference Links
