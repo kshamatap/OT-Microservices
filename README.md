@@ -2,17 +2,18 @@
 
 | **Author**            | **Created on** | **Version** | **Last updated by**       | **Last edited on** | **Reviewer**      |
 |-----------------------|----------------|-------------|----------------------------|---------------------|-------------------|
-| Kshamata      | 12-11-24       | Version 1.1  | Kshamata           | 14-11-24         |     |
+| Kshamata      | 12-11-24       | Version 1.1  | Kshamata           |  14-11-24        |     |
 
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Architecture](#architecture)
 3. [Pre-requisites](#pre-requisites)
-4. [Features of Frontend API](#features)
-5. [Key Benefits of ReactJS for Frontend API](#key-benefits-of-reactjs-for-frontend-api)
-10. [Conclusion](#conclusion)
-11. [Contact Information](#contact-information)
-12. [References](#references)
+4. [Features of Frontend](#features)
+5. [What is ReactJS](#)
+6. [Key Features and Benefits of ReactJS](#key-benefits-of-reactjs-for-frontend-api)
+7. [Conclusion](#conclusion)
+8. [Contact Information](#contact-information)
+9. [References](#references)
 
 
 ---
@@ -29,8 +30,7 @@ ReactJS is a modern, flexible, and high-performance JavaScript library for build
 
 ## Architecture
 
-![image](https://github.com/user-attachments/assets/b21a1e00-d111-4ddd-82ad-e54591aea372)
-
+![alt text](image-2.png)
 
 The Frontend Web integrates with Employee API, Attendance API and Salary API for the functioning of OT-Microservices stack. 
 
@@ -59,8 +59,14 @@ The Frontend API provides several important features and design patterns ensurin
 - **Test case integration** For End-to-End Testing, Cypress or Playwright can be used to simulate full user interactions and ensure that the frontend works correctly with the microservices.
 
 ---
+## What is ReactJS
 
-## Key Benefits of ReactJS for Frontend API
+React is a JavaScript library for building user interfaces (UIs) on the web. React is a declarative, component based library that allows developers to build reusable UI components and It follows the Virtual DOM (Document Object Model) approach, which optimizes rendering performance by minimizing DOM updates. React is fast and works well with other tools and libraries.
+
+React operates by creating an in-memory virtual DOM rather than directly manipulating the browser’s DOM. It performs necessary manipulations within this virtual representation before applying changes to the actual browser DOM. React is efficient, altering only what requires modification.
+
+## Key Features of ReactJS for Frontend API
+![alt text](image-1.png)
 
 - **Fast Rendering & Performance**: React’s virtual DOM and efficient update process lead to faster and smoother rendering.
 - **Easy Debugging and Testing**: React's declarative UI, along with developer tools, simplifies debugging and testing.
@@ -68,6 +74,7 @@ The Frontend API provides several important features and design patterns ensurin
 - **Scalable Architecture**: React scales well for both small and large applications, making it suitable for both startups and enterprise applications.
 - **Single Page Application (SPA)**: React Router is a powerful library for managing navigation and routing in React applications.
 - **Dynamic Routing**: It allows for dynamic routing based on URL paths, enabling users to navigate between different views or pages without refreshing the entire application.
+- **Rich Set of Extensions**: React provides many prebuilt tools to enhance styling, animations, and other web application vitals.
 - **Strong Community and Ecosystem**: React’s large community and ecosystem of third-party libraries help developers find solutions to common problems.
 
 ---
@@ -77,6 +84,9 @@ The Frontend API provides several important features and design patterns ensurin
 The Frontend API is a robust microservice designed to manage the user interface for within the OT Microservices architecture. It integrates seamlessly with the Attendance API, Employee API and Salary API. The API is dynamic and interactive as it is based on ReactJS, which is a high-performance JavaScript library
 
 This API is intended to serve as a backbone for UI related services, providing easy extensibility and maintainability. 
+
+ 
+ [Please click here for a complete setup and PoC of Frontend API of OT-Microservices](https://github.com/kshamatap/OT-Microservices/blob/main/FrontendPoC_V1.md)  
 
 ---
 
