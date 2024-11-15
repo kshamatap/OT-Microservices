@@ -46,7 +46,7 @@ Test case integration for application functionality verification.
 
 ## Architecture
 
-![alt text](image-11.png)
+![image](https://github.com/user-attachments/assets/3fe57c96-3e8b-4407-afc3-1beb61163959)
 
 ## Installation Steps
 For the Frontend PoC, follow the steps mentioned below:
