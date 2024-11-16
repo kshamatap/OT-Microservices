@@ -4,7 +4,7 @@
 
 | **Author**            | **Created on** | **Version** | **Last updated by**       | **Last edited on** | **Reviewer**      |
 |-----------------------|----------------|-------------|----------------------------|---------------------|-------------------|
-| Kshamata      | 14-11-24       | Version 1.1  | Kshamata           | 15-11-24           | Khushi Malhotra    |
+| Kshamata      | 14-11-24       | Version 1.1  | Kshamata           | 15-11-24           |     |
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -19,7 +19,7 @@
 
 ## Introduction
 
-![alt text](image-13.png)
+![image](https://github.com/user-attachments/assets/950f28c7-4166-4eec-a695-a20dca826a92)
 
 Authorization refers to the permissions and access control mechanisms that define what actions authenticated users can perform on the repository, branches, and other resources. The techniques for authorization in VCS vary in granularity, flexibility, and complexity.
 
@@ -29,7 +29,8 @@ Authorization in Version Control Systems (VCS) is a critical aspect of software 
 
 ## Why Authorization is Important ?
 
-![alt text](image-14.png)
+![image](https://github.com/user-attachments/assets/829f9a71-c313-43b6-a29e-ac7df2138c07)
+
 
 Authorization in Version Control Systems (VCS) ensures that only authorized individuals have access to specific parts of the codebase, reducing risks and improving collaboration. Here's why it's crucial:
 
