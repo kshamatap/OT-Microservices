@@ -29,7 +29,8 @@ Authorization in Version Control Systems (VCS) is a critical aspect of software 
 
 ## Why Authorization is Important ?
 
-![alt text](image-14.png)
+![image](https://github.com/user-attachments/assets/cc8ddaf8-d3b2-404e-8ae1-f35fea75a0dd)
+
 
 Authorization in Version Control Systems (VCS) ensures that only authorized individuals have access to specific parts of the codebase, reducing risks and improving collaboration. Here's why it's crucial:
 
