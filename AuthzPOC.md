@@ -19,7 +19,7 @@
 
 ## Introduction
 
-![alt text](image-13.png)
+![image](https://github.com/user-attachments/assets/8d356e06-2d3a-4d8c-b7e6-5aa8ef422867)
 
 Authorization refers to the permissions and access control mechanisms that define what actions authenticated users can perform on the repository, branches, and other resources. The techniques for authorization in VCS vary in granularity, flexibility, and complexity.
 
